@@ -1,6 +1,8 @@
 ---
 layout: post
 title: This is a post test!
+category: test
+tags: also test
 ---
 
 An h1 header
