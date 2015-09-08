@@ -16,6 +16,7 @@ After installed `node.js` and `pm2` on AWS EC2, cannot run pm2!
 ## Solution
 
 - Check where is the `node` installed
+
 ```
 which node
 /usr/sbin/node
@@ -30,6 +31,7 @@ which nodejs
 
 
 - Remove old `node`, and make a new link `node` to `nodejs`
+
 ```
 sudo rm /usr/sbin/node
 sudo ln -s /usr/bin/nodejs /usr/sbin/node
